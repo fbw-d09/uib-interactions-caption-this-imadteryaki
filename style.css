@@ -39,12 +39,16 @@ body {
   align-items: center;
   z-index: 1000;
 }
-.container:hover .text {
+.text:hover  {
   opacity: 1;
   transition:1s ;
 }
-.container:hover .image{
+.image:hover {
     scale: 1.2;
     rotate: 30deg;
     transition: 1s;
+}
+.image:hover .text{
+    rotate: -30deg;
+
 }
